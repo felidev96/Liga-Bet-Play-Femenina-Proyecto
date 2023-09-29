@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="409" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="427" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="316" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="7" rowCount="17">
+                <Column editable="true" title="Equipos" type="java.lang.Object">
+                  <Data value="Santa Fe"/>
+                  <Data value="Am&#xe9;rica de Cali"/>
+                  <Data value="Atl&#xe9;tico Nacional"/>
+                  <Data value="Independiente Medell&#xed;n"/>
+                  <Data value="Deportivo Cali"/>
+                  <Data value="Atl&#xe9;tico Huila"/>
+                  <Data value="Cortulu&#xe1;"/>
+                  <Data value="Deportivo Pereira"/>
+                  <Data value="Millonarios"/>
+                  <Data value="La Equidad"/>
+                  <Data value="Junior"/>
+                  <Data value="Orsomarso"/>
+                  <Data value="Atl&#xe9;tico Bucaramanga"/>
+                  <Data value="Real Santander"/>
+                  <Data value="Llaneros"/>
+                  <Data value="Fortaleza CEIF"/>
+                  <Data value="Envigado F. C."/>
+                </Column>
+                <Column editable="true" title="Temporadas" type="java.lang.String">
+                  <Data value="7"/>
+                  <Data value="7"/>
+                  <Data value="6"/>
+                  <Data value="5"/>
+                  <Data value="5"/>
+                  <Data value="5"/>
+                  <Data value="5"/>
+                  <Data value="5"/>
+                  <Data value="5"/>
+                  <Data value="7"/>
+                  <Data value="5"/>
+                  <Data value="4"/>
+                  <Data value="7"/>
+                  <Data value="6"/>
+                  <Data value="4"/>
+                  <Data value="6"/>
+                  <Data value="2"/>
+                </Column>
+                <Column editable="true" title="Estrellas" type="java.lang.String">
+                  <Data value="3"/>
+                  <Data value="2"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="1"/>
+                  <Data value="1"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                </Column>
+                <Column editable="true" title="Subtitulos" type="java.lang.String">
+                  <Data value="1"/>
+                  <Data value="2"/>
+                  <Data value="1"/>
+                  <Data value="1"/>
+                  <Data value="1"/>
+                  <Data value="1"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                </Column>
+                <Column editable="true" title="Puntos" type="java.lang.String">
+                  <Data value="106"/>
+                  <Data value="102"/>
+                  <Data value="78"/>
+                  <Data value="68"/>
+                  <Data value="66"/>
+                  <Data value="74"/>
+                  <Data value="68"/>
+                  <Data value="66"/>
+                  <Data value="64"/>
+                  <Data value="62"/>
+                  <Data value="58"/>
+                  <Data value="44"/>
+                  <Data value="78"/>
+                  <Data value="76"/>
+                  <Data value="50"/>
+                  <Data value="58"/>
+                  <Data value="20"/>
+                </Column>
+                <Column editable="true" title="Ciudad" type="java.lang.String">
+                  <Data value="Bogot&#xe1;"/>
+                  <Data value="Cali"/>
+                  <Data value="Medell&#xed;n"/>
+                  <Data value="Medell&#xed;n"/>
+                  <Data value="Cali"/>
+                  <Data value="Huila"/>
+                  <Data value="Yumbo"/>
+                  <Data value="Pereira"/>
+                  <Data value="Bogot&#xe1;"/>
+                  <Data value="Bogot&#xe1;"/>
+                  <Data value="Barranquilla"/>
+                  <Data value="Palmira"/>
+                  <Data value="Bucaramanga"/>
+                  <Data value="San Andres"/>
+                  <Data value="Villavicencio"/>
+                  <Data value="Envigado"/>
+                  <Data value="Tolima"/>
+                </Column>
+                <Column editable="true" title="Titulos Internacionales" type="java.lang.String">
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="null"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                  <Data value="0"/>
+                </Column>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clasificaci&#xf3;n Historica"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
